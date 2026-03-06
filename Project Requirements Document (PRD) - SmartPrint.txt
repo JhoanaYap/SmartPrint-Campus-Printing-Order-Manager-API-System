@@ -1,0 +1,36 @@
+Project Requirements Document (PRD)
+
+Title: SmartPrint: Campus Printing Order Manager API System
+
+Project Overview
+This project is a simple backend API for a campus printing shop. It saves printing orders digitally and computes the exact cost automatically.
+
+2. Technical Rules:
+- It runs only on a local computer.
+- It uses only FastAPI.
+- There is no database so orders are saved in the computer's memory.
+- The system uses fixed prices to compute the total (number of pages × price):
+	Black & White: PHP 2.00 per page 
+	Colored: PHP 5.00 per page 
+	Photo Paper: PHP 20.00 per page 
+
+3. Problem Statement:
+Right now, the shop records orders by writing it manually on a paper or logbook. Because they do this manually, the following problems happens:
+- Orders get lost.
+- Orders are written down twice by mistake.
+- The total cost is computed incorrectly.
+- It is hard to track the daily orders.
+
+4. Objectives:
+The goals of this system are to:
+- Accept printing orders.
+- Compute the total cost automatically.
+- Show a list of all orders.
+- Find a specific order.
+- Stop manual mistakes.
+
+Users:
+The main people who will use this system are:
+- Campus Printing Shop Owner - the person who checks the list of daily orders to make sure the money is correct and nothing is missing.
+- Cashier / Printing Staff - the worker who types the order into the system to get the exact price.
+- Clients - the students who buy the prints.
