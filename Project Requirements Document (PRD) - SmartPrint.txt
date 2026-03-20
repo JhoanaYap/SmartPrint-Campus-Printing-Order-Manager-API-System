@@ -2,10 +2,12 @@ Project Requirements Document (PRD)
 
 Title: SmartPrint: Campus Printing Order Manager API System
 
-Project Overview
+GitHub URL: https://github.com/JhoanaYap/SmartPrint-Campus-Printing-Order-Manager-API-System
+
+1. Project Overview
 This project is a simple backend API for a campus printing shop. It saves printing orders digitally and computes the exact cost automatically.
 
-2. Technical Rules:
+Technical Rules:
 - It runs only on a local computer.
 - It uses only FastAPI.
 - There is no database so orders are saved in the computer's memory.
@@ -14,14 +16,14 @@ This project is a simple backend API for a campus printing shop. It saves printi
 	Colored: PHP 5.00 per page 
 	Photo Paper: PHP 20.00 per page 
 
-3. Problem Statement:
+2. Problem Statement
 Right now, the shop records orders by writing it manually on a paper or logbook. Because they do this manually, the following problems happens:
 - Orders get lost.
 - Orders are written down twice by mistake.
 - The total cost is computed incorrectly.
 - It is hard to track the daily orders.
 
-4. Objectives:
+3. Objectives
 The goals of this system are to:
 - Accept printing orders.
 - Compute the total cost automatically.
@@ -29,7 +31,7 @@ The goals of this system are to:
 - Find a specific order.
 - Stop manual mistakes.
 
-Users:
+4. Users
 The main people who will use this system are:
 - Campus Printing Shop Owner - the person who checks the list of daily orders to make sure the money is correct and nothing is missing.
 - Cashier / Printing Staff - the worker who types the order into the system to get the exact price.
