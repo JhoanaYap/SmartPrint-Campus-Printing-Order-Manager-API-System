@@ -1,4 +1,4 @@
-#!\Users\User\desktop\dev\client\.venv\Scripts\python.exe
+#!C:\Users\User\AppData\Local\Programs\Python\Python313\python.exe
 
 import sys
 import requests
